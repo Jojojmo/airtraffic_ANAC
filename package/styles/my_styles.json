@@ -1,0 +1,148 @@
+{
+  "scatterplot": {
+    "tamanho": {
+      "figsize": [
+        10,
+        6
+      ]
+    },
+    "estilo": {
+      "style": "whitegrid",
+      "palette": "dark"
+    },
+    "grafico": {
+      "alpha": 0.7
+    },
+    "eixos": {},
+    "titulo": {
+      "label": "Gráfico de dispersão",
+      "size": 16,
+      "fontweight": "bold"
+    }
+  },
+  "barplot": {
+    "tamanho": {
+      "figsize": [
+        10,
+        6
+      ]
+    },
+    "estilo": {
+      "style": "whitegrid",
+      "palette": "dark"
+    },
+    "grafico": {
+      "orient": "h"
+    },
+    "titulo": {
+      "label": "Gráfico de barras",
+      "fontweight": "bold"
+    }
+  },
+  "histplot": {
+    "estilo": {
+      "style": "whitegrid",
+      "palette": "dark"
+    },
+    "tamanho": {
+      "figsize": [
+        10,
+        6
+      ]
+    },
+    "grafico": {
+      "kde": true
+    },
+    "eixos": {},
+    "titulo": {
+      "label": "Histograma",
+      "size": 16,
+      "fontweight": "bold"
+    }
+  },
+  "boxplot": {
+    "tamanho": {
+      "figsize": [
+        10,
+        6
+      ]
+    },
+    "estilo": {
+      "style": "whitegrid"
+    },
+    "grafico": {
+      "color": "orange",
+      "linewidth": 0.55,
+      "flierprops": {
+        "marker": "x",
+        "markersize": 6,
+        "markeredgewidth": 0.4,
+        "alpha": 0.7
+      },
+      "width": 0.65
+    },
+    "titulo": {
+      "label": "boxplot",
+      "size": 14,
+      "fontweight": "bold"
+    }
+  },
+  "heatmap": {
+    "tamanho": {
+      "figsize": [
+        12,
+        10
+      ]
+    },
+    "estilo": {
+      "style": "whitegrid"
+    },
+    "grafico": {
+      "annot": true,
+      "cmap": "coolwarm",
+      "linewidths": 0.5,
+      "annot_kws": {
+        "size": 10
+      }
+    },
+    "titulo": {
+      "label": "Mapa de calor",
+      "fontweight": "bold",
+      "size": 20
+    }
+  },
+  "group_scatterplot": {
+    "tamanho": {
+      "figsize": [
+        10,
+        6
+      ]
+    },
+    "estilo": {
+      "style": "whitegrid",
+      "palette": "dark"
+    },
+    "grafico": {
+      "height": 4,
+      "aspect": 1.2,
+      "palette": "Set1"
+    },
+    "eixos": {},
+    "tick_params_x": {
+      "axis": "x",
+      "rotation": 45,
+      "labelsize": 10
+    },
+    "tick_params_y": {
+      "axis": "y",
+      "labelsize": 10
+    },
+    "map": {
+      "alpha": 0.7
+    },
+    "titulos": {
+      "col_template": "{col_name}",
+      "size": 16
+    }
+  }
+}
